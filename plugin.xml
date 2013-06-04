@@ -6,7 +6,9 @@
 
     <name>BarcodeScanner</name>
 
-    <asset src="www/barcodescanner.js" target="barcodescanner.js" />
+    <js-module src="www/barcodescanner.js" name="BarcodeScanner">
+        <clobbers target="barcodescanner" />
+    </js-module>
 
     <!-- ios -->
     <platform name="ios">
